@@ -1,0 +1,20 @@
+.photoHolder {
+  border-radius: 25%;
+}
+
+.topBar {
+  box-shadow: 0px 1px 15px #45414e29;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffff;
+}
+
+.iconStyle {
+  top: 10px;
+  color: #b3b8cf;
+}
+
+.searchBarTransistion {
+  transition-duration: 1s;
+  transition-property: margin-right;
+}

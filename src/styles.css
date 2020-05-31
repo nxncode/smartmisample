@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.fontPoppinsRegular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.fontPoppinsMedium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.titleFont {
+  padding-top: 25px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+
+.formFont {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.formBox {
+  padding: 15px;
+  margin: 15px;
+}
+
+.boxBorder {
+  border-color: #523f6905;
+}

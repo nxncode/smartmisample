@@ -1,0 +1,14 @@
+.backgroundColor {
+  background-color: #5e77ff;
+}
+
+.navBarIcon {
+  color: white;
+  padding: 25px 25px 25px 25px;
+}
+
+.navBarIcon :hover {
+  color: grey;
+  background-color: lightblue;
+  color: white;
+}

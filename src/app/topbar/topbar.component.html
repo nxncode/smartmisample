@@ -1,0 +1,45 @@
+<div class="container-fluid topBar">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="logoHolder">
+        <img src="../assets/images/smartmi-logo.JPG" width="135px" />
+      </div>
+    </div>
+    <div class="col-sm-4 fload-right iconStyle">
+      <input type="text" *ngIf="showSearchBar" class="searchBarTransistion" />
+      <span class="material-icons float-right" (click)="searchBarToggle()">
+        search
+      </span>
+    </div>
+    <div class="col-sm-4 float-right">
+      <div class="row">
+        <div class="col-sm-2 float-right iconStyle">
+          <span class="material-icons float-right">
+            notifications_none
+          </span>
+        </div>
+        <div class="col-sm-2 float-right iconStyle">
+          <span class="material-icons float-right">
+            settings
+          </span>
+        </div>
+        <div class="col-sm-5 float-right iconStyle">
+          Hi Arun
+          <span class="photoHolder">
+            <img
+              src="../assets/images/arun.jpg"
+              style="border-radius: 50%;"
+              width="25px"
+              height="30px"
+            />
+          </span>
+        </div>
+        <div class="col-sm-2 float-right iconStyle">
+          <span class="material-icons float-right">
+            widgets
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

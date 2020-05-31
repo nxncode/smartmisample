@@ -1,0 +1,114 @@
+<div class="container-fluid">
+  <div class="row pt-3">
+    <div class="col-sm-12 fontPoppinsMedium">
+      <span class="material-icons iconStyle">
+        home
+      </span>
+      <span class="breadCrumb">{{ breadCrumb }}</span>
+    </div>
+  </div>
+  <div class="formBox" style="background-color: white;">
+    <div class="row">
+      <div class="titleFont">Create new lead</div>
+    </div>
+    <div class="dropdown-divider"></div>
+
+    <div class="row pt-3 formFont">
+      <div class="col-sm-6 form-group">
+        <label for="customername" class="fontPoppinsMedium"
+          >Customer name</label
+        >
+        <select class="form-control form-control-sm">
+          <option>Select</option>
+        </select>
+      </div>
+      <div class="col-sm-6 form-group">
+        <label for="projectname" class="fontPoppinsMedium">Project name</label>
+        <select class="form-control form-control-sm">
+          <option>Select</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row pt-3 formFont">
+      <div class="col-sm-3 form-group">
+        <label for="sourceoflead" class="fontPoppinsMedium"
+          >Source of Lead</label
+        >
+        <select class="form-control form-control-sm">
+          <option>Select</option>
+        </select>
+      </div>
+      <div class="col-sm-3 form-group">
+        <label for="salesengineer" class="fontPoppinsMedium"
+          >Sales engineer</label
+        >
+        <select class="form-control form-control-sm" id="salesengineer">
+          <option>Select</option>
+        </select>
+      </div>
+      <div class="col-sm-3 form-group">
+        <label for="assignedto" class="fontPoppinsMedium">Assigned to</label>
+        <select class="form-control form-control-sm" id="assignedto">
+          <option>Select</option>
+        </select>
+      </div>
+      <div class="col-sm-3 form-group">
+        <label for="duedate" class="fontPoppinsMedium">Due Date</label>
+        <input type="date" class="form-control form-control-sm" />
+      </div>
+    </div>
+
+    <div class="row pt-3 formFont">
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <label for="contactname" class="fontPoppinsMedium"
+              >Contact Name</label
+            >
+            <input type="text" class="form-control form-control-sm" />
+          </div>
+          <div class="col-sm-6 form-group">
+            <label for="email" class="fontPoppinsMedium">Email</label>
+            <div class="input-group">
+              <input type="text" class="form-control form-control-sm" />
+              <span class="input-group-append bg-secondary text-light">
+                <span class="material-icons">
+                  email
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <label for="contactname" class="fontPoppinsMedium">Phone</label>
+            <div class="input-group">
+              <input type="text" class="form-control form-control-sm" />
+              <span class="input-group-append bg-secondary text-light">
+                <span class="material-icons">
+                  phone_enabled
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 form-group">
+        <label for="assignedto" class="fontPoppinsMedium">Assigned to</label>
+        <textarea rows="6" class="form-control form-control-sm"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 float-right">
+        <button
+          class="btn btn-info float-right"
+          style="background-color: #5e77ff !important;"
+        >
+          Save
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+.iconStyle {
+  display: inline-flex;
+  vertical-align: middle;
+  color: black;
+}
+
+.breadCrumb {
+  color: #a0a7c4;
+  font-size: 13px;
+}
